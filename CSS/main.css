@@ -38,8 +38,6 @@
 }
 
 
-
-
 footer {
 	width: 100%;
 	height: 500px;
@@ -47,23 +45,18 @@ footer {
 	
     display: flex;
 	flex-direction: column;
-    background: rgb(51, 49, 49);
-    
+    background: rgb(51, 49, 49); 
 }
-
 footer div {
 	display: flex;
 	flex-direction: column;
 }
-
 footer img {
     width: 30%;
     height: 30px; 
     color: white; 
 }
-
 footer a {
     text-decoration: none;
     color: white;
-
 }
