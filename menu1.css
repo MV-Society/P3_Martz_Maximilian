@@ -73,6 +73,24 @@ main{
 	line-height: 0px;
 	/* mix-blend-mode: lighten; */
 }
+#entrées :hover i {
+	background-color: rgb(255, 0, 255);
+}
+
+#entrées div i {
+	font-size: 24px;
+	transform: scale(1);
+    /* transition-property: transform; */
+    transition-duration: 1.5s;
+	/* transition: transform 450ms, background-color 300ms 150ms; */
+	background-color: rgb(255, 0, 255);
+}
+#entrées div:hover i {
+    transform: scale(1);
+	background-color: rgb(255, 0, 255);
+    color: rgb(255, 0, 255);
+	/* transform-origin: center center; */
+}
 
 #entrées {
     width: 100%;
@@ -226,7 +244,7 @@ button {
 }
 button:hover {
 	background: linear-gradient(176deg, rgb(173, 120, 236) 0%, rgb(240, 125, 207) 0%, rgb(171, 117, 236) 100%);
-
+	box-shadow: 0px 10px 4px 0px rgba(0, 0, 0, 0.3);
 }
 button span  {
     color: white;
