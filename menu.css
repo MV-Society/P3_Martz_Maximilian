@@ -138,6 +138,13 @@ b {
 	opacity: 0.7;
 }
 
+#plats span {
+	display: flex;
+	justify-content: flex-end;
+	font-size: smaller;
+	opacity: 0.9;
+}
+
 
 #plats h2 {
 	width: 40px;
@@ -376,3 +383,27 @@ footer i {
 			flex-direction: initial;
 		}
 	}
+
+
+	@media (min-width: 1025px) {
+
+		#home img {height: 80px;}
+
+		button {margin: 35px 280px;}
+		
+		footer {height: 170px;}
+
+		footer h2 {
+			font-size: 40px;
+			margin-left: 350px;
+		}
+
+		ul {
+			gap: 78px;
+			font-size: x-large;
+		}
+
+
+
+		
+    }
