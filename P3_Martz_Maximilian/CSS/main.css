@@ -1,0 +1,452 @@
+main {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+#fonctionnement .number {
+	position: absolute;
+	transform: translate(-50%, 90%);
+	padding: 3px 8px;
+	border-radius: 999px;
+	color: white;
+	background: #9356DC;
+	font-size: small;
+}
+
+aside button {
+	height: 64px;
+	width: 93%;
+	margin-bottom: 20px;
+	padding: 15px 40px 10px 0;
+	border-radius: 14px;
+	cursor: pointer;
+	box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.1);
+	border: none;
+	background: #f5f5f5;
+}
+
+aside span {
+	margin-left: 10px;
+}
+
+aside span:hover {
+	color: black;
+}
+
+aside i {
+	font-size: 15px;
+}
+
+
+aside {
+	margin-left: 20px;
+}
+
+
+#fonctionnement button:hover i {
+	color: rgb(130, 5, 214);
+}
+
+
+#fonctionnement {
+	margin-top: 50px;
+}
+
+
+#fonctionnement h2 {
+	margin-bottom: 23px;
+	font-size: 21px;
+}
+
+#fonctionnement button:hover {
+	background: rgb(245, 235, 255);
+}
+
+
+#restaurants img {
+	width: 100%;
+	height: 167px;
+}
+
+#restaurants h2 {
+	margin-bottom: 10px;
+}
+
+#restaurants {
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 48px 20px;
+	background: #f2f2f2;
+	margin-top: 35px;
+}
+
+#restaurants .card {
+	position: relative;
+	width: 100%;
+	height: 240px;
+	margin: 10px 0;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+	border-radius: 20px;
+}
+
+.card img {
+	width: 100%;
+}
+
+ #restaurants .card:hover {
+ transform: translateY(-5px);
+} 
+
+#restaurants .img {
+	width: 100%;
+	height: 170px;
+}
+
+#restaurants .img img {
+	border-radius: 12px 12px 0 0;
+}
+
+#restaurants .item {
+	display: grid;
+	grid-template-columns: 85% 8%;
+	grid-template-rows: 35px 35px;
+}
+
+#restaurants h3 {
+	font-size: medium;
+	margin-left: 12px;
+	margin-top: 12px;
+}
+
+#restaurants p {
+	font-size: smaller;
+	margin-left: 12px;
+}
+
+svg:hover path,
+svg:active path {
+	fill: url(#bg);
+	fill: url(#bg1);
+	fill: url(#bg2);
+	fill: url(#bg3);
+	stroke: transparent;
+	transition: .3s;
+}
+path {
+	fill: transparent;
+	stroke-width: 15px;
+	stroke: #333;
+}
+
+svg {
+	width: 55px;
+}
+
+.n {
+	position: absolute;
+	top: 9px;
+	right: 12px;
+	padding: 7px 15px;
+	border-radius: 3px;
+	background: #99E2D0;
+	color: #1c997b;
+	font-size: medium;
+}
+
+.n2 {
+	position: absolute;
+	top: 7px;
+	right: 12px;
+	padding: 7px 15px;
+	border-radius: 3px;
+	background: #99E2D0;
+	color: #1c997b;
+	font-size: medium;
+}
+
+
+footer {
+	width: 100%;
+	height: 170px;
+	font-size: small;
+	padding: 20px 20px 0;
+	background-color: #312e2e;
+
+	display: flex;
+	flex-direction: column;
+}
+
+footer h2 {
+	margin-bottom: 13px;
+	font-size: 15px;
+	font-family: Shrikhand;
+	color: #fff;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+footer i {
+	color: rgb(255, 255, 255);
+	padding: 0px 5px 0 0;
+	font-size: 12px;
+}
+
+/* 
+
+background: transparent;
+stroke-width: 15px;
+stroke: #333;
+
+*/
+
+/* .loading {
+	background-color: #FF79DA;
+	height: 500px;
+	line-height: 500px;
+}
+
+.loader {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.loader-quart {
+	border-radius: 50px;
+	border: 6px solid rgba(255,255,255,0.4);
+}
+
+loader-quart::after {
+	content: "";
+	position: absolute;
+	top: -6px; 
+	left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: #fff;
+	-webkit-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0%{ -webkit-animation: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-animation: rotate(360deg); transform: rotate(360deg);}
+} */
+
+
+
+	@media (min-width: 768px) {
+
+		#fonctionnement h2 {
+			margin-bottom: 25px;
+			font-size: 30px;
+		}
+
+		aside button {
+			height: 70px;
+			width: 97%;
+			margin-bottom: 50px;
+		}
+
+		aside i {font-size: 25px;}
+
+		aside span {
+			margin-left: 25px;
+			font-size: large;
+		}
+
+		.n {
+			padding: 6px 8px;
+			font-size: medium;
+		}
+		.n2 {
+			padding: 6px 8px;
+			font-size: medium;
+		}
+		
+
+		#fonctionnement .number {
+			transform: translate(-50%, 87%);
+			padding: 5px 10px;
+		}
+
+
+		#restaurants h2 {font-size: 35px;}
+
+
+
+		#restaurants h3 {
+			font-size: x-large;
+			margin-top: 45px;
+		}
+
+		#restaurants p {font-size: large;}
+
+		#restaurants i {font-size: 30px;}
+
+		#restaurants {
+			margin: -10px 0px;
+			display: grid;
+			grid-template-columns: 48.5% 48.5%;
+			grid-template-rows: 28px 250px 250px;
+			column-gap: 30px;
+			row-gap: 25px;
+		}
+		#restaurants h2 {
+			align-self: end;
+			font-size: xx-large;
+		}      
+		#restaurants .card {
+			height: 250px;
+			margin: 1px auto;
+			border-radius: 20px;
+				
+			gap: 0px;
+			flex-direction: column;
+		}
+		#restaurants  .img {
+			height: 135px;
+		}
+		#restaurants .img img {
+			border-radius: 15px 15px 0 0;
+		}
+		#restaurants .card:nth-child(2) {
+			grid-column: 1/2;
+			grid-row: 2/3;      
+		}
+		#restaurants .card:nth-child(3) {
+			grid-column: 2/2;
+			grid-row: 2/3;
+		}
+		#restaurants .card:nth-child(4) {
+			grid-column: 1/2;
+			grid-row: 3/4;
+		}
+		#restaurants .card:nth-child(5) {
+			grid-column: 2/3;
+			grid-row: 3/4;
+		}
+
+		#restaurants .item {
+			display: grid;
+			grid-template-columns: 81% 9%;
+			grid-template-rows: 83px 36px;
+		}
+
+		svg {align-self: end; width: 75px}
+
+		footer {height: 150px;}
+
+		footer h2 {
+			font-size: 35px;
+			margin-left: 248px;
+		}
+
+		ul {
+			gap: 50px;
+			font-size: large;
+			flex-direction: initial;
+		}
+	}
+
+
+	@media (min-width: 1025px) {
+
+		
+		#fonctionnement h2 {
+			margin-bottom: 35px;
+			font-size: 35px;
+		}
+
+		#fonctionnement {
+			padding: 22px 20px;
+			background: #f2f2f2;
+		}
+
+		svg {
+			align-self: end;
+			width: 45px;
+		}
+
+		#restaurants .item {
+			display: grid;
+			grid-template-columns: 80% 9%;
+			grid-template-rows: 81px 34px;
+		}
+
+		aside {
+			margin-left: 5px;
+			background: #f2f2f2;
+		}
+
+		aside button {
+			height: 120px;
+			width: 98%;
+			margin-bottom: 84px;
+		}
+
+		aside i {font-size: 30px;}
+
+		aside span {font-size: x-large;}
+
+		#fonctionnement .number {
+			transform: translate(-50%, 105%);
+			padding: 9px 14px;
+			font-size: medium;
+		}
+
+		#restaurants {
+			display: grid;
+			grid-template-columns: 48.5% 48.5%;
+			grid-template-rows: 28px 250px 250px;
+			column-gap: 21px;
+			row-gap: 51px;
+			padding: 14px 25px 0px 0px;
+			margin: 34px 0px;
+		}
+
+		main {
+			flex-direction: row-reverse;
+			background: #f2f2f2;
+			height: 720px;
+		}
+
+
+		#restaurants h2 {
+			font-size: 35px;
+			margin-bottom: -37px;
+		}
+
+		#restaurants h3 {
+			font-size: large;
+			margin-top: 50px;
+		}
+
+		
+		footer {height: 165px;}
+
+		footer h2 {
+			font-size: 40px;
+			margin-left: 345px;
+		}
+
+		ul {
+			gap: 78px;
+			font-size: x-large;
+		}
+    }
