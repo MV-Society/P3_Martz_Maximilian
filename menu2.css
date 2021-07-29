@@ -49,9 +49,18 @@ header img {
 main {
 	background: #f2f2f2;
 	border-radius: 35px 35px 0 0;
-	height: 1290px;
+	height: 1400px;
 	margin-top: -45px;
 	position: relative;
+}
+
+.menu2 {
+
+		background: #f2f2f2;
+		border-radius: 35px 35px 0 0;
+		height: 1350px;
+		margin-top: -45px;
+		position: relative;
 }
 
 .titre {
@@ -384,7 +393,7 @@ path {
 	border: none;
 	border-radius: 30px;
 	cursor: pointer;
-	margin: 14px 23%;                                            
+	margin: 30px 23%;                                            
 	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 	background: linear-gradient(176deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
 }
@@ -449,10 +458,10 @@ footer i {
 			margin-left: 27%;
 		}
 
-		#home {
+        #home {
 			position: fixed;
     		z-index: 2;
-			background: linear-gradient(176deg, rgb(173, 120, 236) 0%, rgb(240, 125, 207) 0%, rgb(171, 117, 236) 100%);
+    		background: #E879FF;
     		width: 100%;
 		}
 
@@ -533,7 +542,7 @@ footer i {
 		main {
 			background: #f2f2f2;
 			border-radius: 35px 35px 0 0;
-			height: 1340px;
+			height: 1430px;
 			margin-top: -45px;
 			position: relative;
 			margin: 0 60px;
@@ -541,9 +550,9 @@ footer i {
 
 		body {
 			width: 100%;
-			height: auto;
+			height: 100vh;
 			font-family: roboto, sans-serif;
-			background: linear-gradient(176deg, rgb(173, 120, 236) 0%, rgb(240, 125, 207) 0%, rgb(171, 117, 236) 100%);
+			background: #E879FF;
 		}
 		
 		footer {height: 150px;}
@@ -564,6 +573,13 @@ footer i {
 
 	@media (min-width: 1024px) {
 
+		body {
+			width: 100%;
+			height: 100vh;
+			font-family: roboto, sans-serif;
+			background: #E879FF;
+		}
+
 		header img {
 			width: 100%;
 			margin-top: 4px;
@@ -583,8 +599,8 @@ footer i {
 			height: 1290px;
 			margin-top: 120px;
 			position: relative;
-			height: 1350px;
-			margin: 0 160px;
+			height: 1470px;
+			margin: 0 80px;
 		}
 
 		.titre svg {

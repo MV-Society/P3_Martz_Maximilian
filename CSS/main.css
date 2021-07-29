@@ -211,6 +211,45 @@ stroke: #333;
 
 */
 
+/* .loading {
+	background-color: #FF79DA;
+	height: 500px;
+	line-height: 500px;
+}
+
+.loader {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+.loader-quart {
+	border-radius: 50px;
+	border: 6px solid rgba(255,255,255,0.4);
+}
+
+loader-quart::after {
+	content: "";
+	position: absolute;
+	top: -6px; 
+	left: -6px;
+	bottom: -6px;
+	right: -6px;
+	border-radius: 50px;
+	border: 6px solid transparent;
+	border-top-color: #fff;
+	-webkit-animation:spin 1s linear infinite;
+	animation:spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+	0%{ -webkit-animation: rotate(0deg); transform: rotate(0deg);}
+	100%{ -webkit-animation: rotate(360deg); transform: rotate(360deg);}
+} */
+
+
+
 	@media (min-width: 768px) {
 
 		#fonctionnement h2 {
@@ -222,7 +261,10 @@ stroke: #333;
 			height: 70px;
 			width: 97%;
 			margin-bottom: 50px;
+			box-shadow: 10px 9px 10px 0px rgba(0, 0, 0, 0.2);
+			background: #f5f5f5;
 		}
+		
 
 		aside i {font-size: 25px;}
 
@@ -230,6 +272,7 @@ stroke: #333;
 			margin-left: 25px;
 			font-size: large;
 		}
+
 
 		.n {
 			padding: 6px 8px;
@@ -239,6 +282,7 @@ stroke: #333;
 			padding: 6px 8px;
 			font-size: medium;
 		}
+		
 		
 
 		#fonctionnement .number {
@@ -315,18 +359,19 @@ stroke: #333;
 
 		footer h2 {
 			font-size: 35px;
-			margin-left: 248px;
+			display: grid;
+			justify-items: center;
 		}
 
 		ul {
-			gap: 50px;
 			font-size: large;
 			flex-direction: initial;
+			justify-content: space-around;
 		}
 	}
 
 
-	@media (min-width: 1025px) {
+	@media (min-width: 1024px) {
 
 		
 		#fonctionnement h2 {
@@ -336,7 +381,7 @@ stroke: #333;
 
 		#fonctionnement {
 			padding: 22px 20px;
-			background: #f2f2f2;
+			background: #bdbdbd;
 		}
 
 		svg {
@@ -352,7 +397,7 @@ stroke: #333;
 
 		aside {
 			margin-left: 5px;
-			background: #f2f2f2;
+			background: #bdbdbd;
 		}
 
 		aside button {
@@ -379,11 +424,12 @@ stroke: #333;
 			row-gap: 51px;
 			padding: 14px 25px 0px 0px;
 			margin: 34px 0px;
+			background: #bdbdbd;
 		}
 
 		main {
 			flex-direction: row-reverse;
-			background: #f2f2f2;
+			background: #bdbdbd;
 			height: 720px;
 		}
 
@@ -401,13 +447,7 @@ stroke: #333;
 		
 		footer {height: 165px;}
 
-		footer h2 {
-			font-size: 40px;
-			margin-left: 345px;
-		}
+		footer h2 {font-size: 40px;}
 
-		ul {
-			gap: 78px;
-			font-size: x-large;
-		}
+		ul {font-size: x-large;}
     }
