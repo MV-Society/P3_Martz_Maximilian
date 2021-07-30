@@ -52,6 +52,7 @@ main {
 	margin-top: -45px;
 	position: relative;
 	padding-bottom: 35px;
+	display: grid;
 }
 
 .titre {
@@ -127,6 +128,9 @@ path {
 	font-size: medium;
 	margin-bottom: 3px;
 	align-self: flex-end;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .menu .card p {
@@ -137,6 +141,7 @@ path {
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-weight: lighter;
 }
 
 .menu .checkbox {
@@ -176,8 +181,8 @@ path {
 }
 
 .menu .card:hover .check img {
-	margin: auto;
 	animation: rotate-up 0.65s linear both;
+	margin: auto;
 }
 
 /* Animation checkbox */
@@ -305,16 +310,6 @@ path {
 	margin: 1px;
 }
 
-#plats p {
-	margin: 0;
-	font-size: smaller;
-	white-space: nowrap;
-	overflow: hidden;
-	opacity: 0.6;
-	margin-bottom: 3px;
-}
-
-
 #desserts h2 {
 	width: 40px;
 	height: 27px;
@@ -341,21 +336,13 @@ path {
 	padding: 0px 8px;
 	background: #f2f2f2;
 	margin-top: 25px;
+	margin-bottom: 15px;
 }
 
 #desserts h3 {
 	font-size: medium;
 	opacity: 0.8;
 	margin: 1px;
-}
-
-#desserts p {
-	margin: 0;
-	font-size: smaller;
-	white-space: nowrap;
-	overflow: hidden;
-	opacity: 0.6;
-	margin-bottom: 3px;
 }
 
 
@@ -365,7 +352,7 @@ button {
 	border: none;
 	border-radius: 30px;
 	cursor: pointer;
-	margin: 35px 23%;
+	margin: 35px auto;
 	box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
 	background: linear-gradient(176deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
 }
@@ -503,7 +490,6 @@ footer i {
 		button {
 			width: 40%;
 			height: 68px;
-			margin: 35px 30%;
 		}
 
 		button span {
@@ -514,7 +500,7 @@ footer i {
 		main {
 			background: #f2f2f2;
 			border-radius: 35px 35px 0 0;
-			height: 1340px;
+			height: 1450px;
 			margin-top: -45px;
 			position: relative;
 			margin: 0 60px;
@@ -564,12 +550,12 @@ footer i {
 			height: 1290px;
 			margin-top: 120px;
 			position: relative;
-			height: 1350px;
+			height: 1470px;
 			margin: 0 160px;
 		}
 
 		.titre svg {
-			width: 140px;
+			width: 116px;
 			height: 111px;
 			align-self: baseline;
 		}

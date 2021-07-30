@@ -153,7 +153,7 @@ header button span {
          }
             
          h1 {
-            margin: 25px 247px 10px;
+            margin: 25px auto 10px;
             font-size: xx-large;
         }
         
@@ -163,9 +163,10 @@ header button span {
 
     @media (min-width: 1300px) {
         .container, footer {
-        max-width: 1300px;
+        max-width: 1200px;
     }
     
+
     body {
         background: linear-gradient(176deg, rgba(147, 86, 220, 1) 0%, rgba(255, 121, 218, 1) 0%, rgba(147, 86, 220, 1) 100%);
         display: grid;
